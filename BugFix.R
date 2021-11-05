@@ -6,6 +6,7 @@ volume <- function(r) {
   4/3*pi*r^3
 }
 
+browser()
 #Function to compute the volume of the sphere with radius r, r^2 and r^3
 volume_vector <- function(r) {
   vector <- c()
@@ -15,8 +16,9 @@ volume_vector <- function(r) {
   }
   return (vector)
 }
-
 volume(r)
+
+browser()
 #Run volume_vector(r) and print the volumes of the sphere with radius r, r^2 and r^3
 volume_vector(r)
 
